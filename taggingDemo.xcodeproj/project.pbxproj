@@ -14,6 +14,7 @@
 		6F4CD825242FC0850075742B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4CD824242FC0850075742B /* Assets.xcassets */; };
 		6F4CD828242FC0850075742B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4CD826242FC0850075742B /* LaunchScreen.storyboard */; };
 		6F4CD833242FC0860075742B /* taggingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4CD832242FC0860075742B /* taggingDemoTests.swift */; };
+		6F6639592430D77900A5E56C /* selectedCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6639582430D77900A5E56C /* selectedCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6F4CD82E242FC0860075742B /* taggingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taggingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4CD832242FC0860075742B /* taggingDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taggingDemoTests.swift; sourceTree = "<group>"; };
 		6F4CD834242FC0860075742B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6639582430D77900A5E56C /* selectedCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				6F4CD824242FC0850075742B /* Assets.xcassets */,
 				6F4CD826242FC0850075742B /* LaunchScreen.storyboard */,
 				6F4CD829242FC0850075742B /* Info.plist */,
+				6F6639582430D77900A5E56C /* selectedCategory.swift */,
 			);
 			path = taggingDemo;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6639592430D77900A5E56C /* selectedCategory.swift in Sources */,
 				6F4CD820242FC0820075742B /* ViewController.swift in Sources */,
 				6F4CD81C242FC0820075742B /* AppDelegate.swift in Sources */,
 				6F4CD81E242FC0820075742B /* SceneDelegate.swift in Sources */,
