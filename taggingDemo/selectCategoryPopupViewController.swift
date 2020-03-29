@@ -74,7 +74,7 @@ extension selectCategoryPopupViewController{
             tapGesture = UITapGestureRecognizer(target: self, action: #selector(onExperimentaltap))
         break
         case 6:
-            tapGesture = UITapGestureRecognizer(target: self, action: #selector(onArttap))
+            tapGesture = UITapGestureRecognizer(target: self, action: #selector(onOtherstap))
         break
         default:
             break
